@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <title> Verify </title>
+</head>
+
+<body>
+
+    <form action="" method="post">
+        <div class="container">
+            <h2>กรุณายืนยันตัวตน</h2>
+
+            <label for="employeeId">รหัสพนักงาน</label>
+            <input type="text" name="employeeId" id="employeeId" placeholder="กรอกรหัสพนักงาน" required>
+
+            <label for="psw"> เลขบัตรประชาชน (5 หลักสุดท้าย) </label>
+            <input type="password" name="password" id="password" placeholder="5 หลักสุดท้ายบัตรประชาชน" required>
+            
+            <div class="button">
+                <button type="submit"> ยืนยันตัวตน </button>
+                <p id="result"></p>
+                <button id="lineLoginBtn">ล็อกอินผ่าน LINE</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
