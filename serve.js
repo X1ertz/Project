@@ -109,5 +109,5 @@ sequelize.authenticate()
 sequelize.sync()
     .then(() => console.log('All models were synchronized successfully.'))
     .catch(error => console.error('Error synchronizing the models:', error));
-//ccc
+
 app.listen(3000, () => console.log('Server running on port 3000'));
